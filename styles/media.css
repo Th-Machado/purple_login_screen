@@ -1,0 +1,44 @@
+@media screen and (max-width: 760px) /*Tornando a página responsivo*/
+{
+    header
+    {
+        flex-direction: column;
+    }
+
+    main 
+    {
+        flex-direction: column;
+    }
+
+    h2 
+    {
+        font-size: 38px;
+    }
+
+    form 
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+    input 
+    {
+        align-self: center;
+    }
+
+    img 
+    {
+        margin-top: 60px;
+        width: 300px;
+    }
+
+    article
+    {
+        margin: auto;
+    }
+
+    ul 
+    {
+        text-align: center;
+    }
+}
